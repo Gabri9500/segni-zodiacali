@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .description-card {
+    flex: 1 1 100%;
+    max-width: 768px;
+  }
+  h1 {
+    font-size: 30px;
+    min-width: 100%;
+    max-width: 768px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #4aaca7;
+}
+.title {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+  font-style: italic;
+  background-color: #125050;
+  color: #d2d7c8;
+  text-decoration: wavy;
+  padding: 20px;
+  border: 4px solid black;
+  margin-bottom: 20px;
+}
+h2:hover {
+  color: white;
+}
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 35px;
+  border: 3px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #125050;
+  color: #121709;
+  text-align: center;
+  margin-bottom: 0;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  background-color: #125050;
+  color: #121709;
+  padding: 10px;
+  margin-top: 0;
+  border: 3px solid black;
+  border-radius: 6px;
+  border-top: 0;
+}
+span {
+  border-bottom: 3px solid black;
+}
+.description-card {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  min-height: 435px;
+}
+.vergine {
+  background-color: #67c3c8;
+}
+.leone {
+  background-color: rgb(109, 177, 236);
+}
+.bilancia {
+  background-color: rgb(81, 165, 196);
+}
+.scorpione {
+  background-color: #6274b6;
+}
+.capricorno {
+  background-color: #6b81d0;
+}
+.ariete {
+  background-color: #6bcec9;
+}
+.riconoscimenti {
+  background-color: #125050;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.data {
+  border-bottom: 0;
+  margin: 20px;
+}
